@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/quintinmintiens/CICDSampleApplicaiton/issues"
   },
-  "homepage": "https://github.com/quintinmintiens/CICDSampleApplicaiton#readme"
+  "homepage": "https://github.com/quintinmintiens/CICDSampleApplicaiton#readme",
+  "dependencies": {
+    "eslint": "^8.56.0"
+  }
 }
