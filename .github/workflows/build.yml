@@ -27,5 +27,5 @@ jobs:
           context: .
           file: ./webapp/Dockerfile  # Use the Dockerfile in the root directory
           push: false  # Do not push the image
-          tags: |
+          tags: 
             mintiens/webapp:latest  # Use the same tag as before
