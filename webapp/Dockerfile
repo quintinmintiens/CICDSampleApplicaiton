@@ -12,6 +12,7 @@ RUN yarn install --frozen-lockfile
 
 # Copy the rest of the application code
 COPY . /app
+COPY test.js /app
 
 # Expose port 3000 for the application
 EXPOSE 3000
